@@ -1,0 +1,38 @@
+.contributor {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto 240px;
+    
+
+    align-items: center;
+
+    max-width: 553px;
+}
+
+.contributor h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+
+    color: var(--white2);
+}
+
+.contributor__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 427px;
+
+    margin: 25px 0 100px;
+
+    text-align: center;
+
+    color: var(--gray);
+}
+
+@media (max-width: 1120px) {
+}

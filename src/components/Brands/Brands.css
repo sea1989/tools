@@ -1,0 +1,50 @@
+.brands {
+    display: flex;
+    flex-direction: column;
+
+    margin: 200px 0;
+    padding: 56px 82px;
+    background: rgba(44, 53, 61, 0.2);
+    background-image: url(/src/assets/images/bg-brands.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(25px);
+
+    border-radius: 25px;
+}
+
+.brands__title {
+    display: flex;
+    align-self: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.brands__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+
+    margin-top: 55px;
+
+    flex-wrap: wrap;
+}
+
+.brands__item a path {
+    fill: #4d5458;
+    transition: 2s;
+}
+
+.brands__item a:hover path {
+    fill: var(--orange);
+}
+
+@media (max-width: 1120px) {
+    .brands__list {
+        gap: 20px;
+    }
+}

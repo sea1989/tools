@@ -1,0 +1,41 @@
+.header__navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav__item span {
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+}
+
+.nav__link {
+    display: flex;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--gray);
+}
+
+.nav__link:hover {
+    color: var(--orange);
+}
+
+@media (max-width: 1120px) {
+    .nav__list {
+        display: none;
+    }
+}

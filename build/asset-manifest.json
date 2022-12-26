@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54bbf570.css",
+    "main.js": "/static/js/main.dbffee14.js",
+    "static/js/787.eb063034.chunk.js": "/static/js/787.eb063034.chunk.js",
+    "static/media/banner1.png": "/static/media/banner1.4cfc8808f0eb631b9166.png",
+    "static/media/bg-brands.png": "/static/media/bg-brands.59284a6110775d525bae.png",
+    "static/media/bg-hover.png": "/static/media/bg-hover.a79915ee753cdea1fcbd.png",
+    "static/media/inst.svg": "/static/media/inst.8a59137729a4e3e5f0c9d0bef231c273.svg",
+    "static/media/twitter.svg": "/static/media/twitter.04545b6272290a8be88f8ba7e1d32fef.svg",
+    "static/media/logo.svg": "/static/media/logo.5ae33ba183aacf03ccb428fbf433933d.svg",
+    "index.html": "/index.html",
+    "static/media/search.svg": "/static/media/search.ba163813dceef88c28c5041ee5250573.svg",
+    "static/media/fb.svg": "/static/media/fb.9ae09f8aec2120e74e8235e47857ec47.svg",
+    "main.54bbf570.css.map": "/static/css/main.54bbf570.css.map",
+    "main.dbffee14.js.map": "/static/js/main.dbffee14.js.map",
+    "787.eb063034.chunk.js.map": "/static/js/787.eb063034.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54bbf570.css",
+    "static/js/main.dbffee14.js"
+  ]
+}

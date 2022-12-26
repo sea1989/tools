@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.logo-wrapper:hover .header__description {
+    color: var(--orange);
+    font-size: 24px;
+}
+
+.header__description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: var(--white2);
+
+    transition: 2s;
+}
+
+.login-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .login-wrapper {
+        display: none;
+    }
+}
