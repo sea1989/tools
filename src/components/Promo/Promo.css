@@ -58,6 +58,7 @@
     fill: var(--orange);
 }
 
+
 @media (max-width: 1120px) {
     .promo {
         flex-direction: column;
