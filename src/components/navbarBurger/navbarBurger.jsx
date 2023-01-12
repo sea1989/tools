@@ -38,6 +38,7 @@ export const NavbarBurger = () => {
       >
         <div className='blur' />
         <div className='menu__content' onClick={(e) => e.stopPropagation()}>
+        <span className='close-btn' onClick={() => setMenuActive(false)}>&times;</span>
           <a className='logo__container' href='/'>
             {/* <img className='logo-burger' src={logo} alt='Прима' width='160' /> */}
           </a>
